@@ -70,7 +70,7 @@ export default {
 
 .rack-item-details {
   font-family: 'FontinSmallCaps', Verdana, Arial, Helvetica, sans-serif;
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0);
   width: max-content;
   font-size: 14.5px;
   text-align: center;

@@ -1,7 +1,7 @@
 <template>
   <div class="rack-item">
-    <rack-item-icon :item="item"></rack-item-icon>
-    <rack-item-popup></rack-item-popup>
+    <rack-item-icon :item="item"/>
+    <rack-item-popup/>
   </div>
 </template>
 

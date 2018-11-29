@@ -1,10 +1,19 @@
 {
   "name": "poekit-buildable",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.2",
+  "name": "poe-item-rack",
+  "main": "./dist/poeRack.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:dist": "vue-cli-service build --target lib --name poeRack src/index.js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
