@@ -1,17 +1,21 @@
-<template lang="pug">
-    #app
-        .rack
-            rack-item(:item="i" v-for="i in test_data.items" v-bind:key="i.id")
+<template>
+  <div id="app">
+    <div class="rack">
+      <rack-item :item="i" v-for="i in testData.items" v-bind:key="i.id"></rack-item>
+    </div>
+  </div>
 </template>
 
 <script>
-import test_data from './test_data.json'
+import testData from './test_data.json'
 
 export default {
-    name: 'app',
-    data: function () {
-        return {test_data: test_data}
+  name: 'app',
+  data: function () {
+    return {
+      testData
     }
+  }
 }
 </script>
 <style>
