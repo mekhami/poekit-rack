@@ -52,7 +52,7 @@ export default {
   position: relative;
   width: min-content;
   width: -moz-min-content;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.06) --no-repeat;
   &.unidentified {
     background-color: rgba(210, 0, 0, 0.18);
   }
